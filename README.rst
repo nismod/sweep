@@ -4,7 +4,7 @@
 sweep
 ====================================
 .. image:: https://img.shields.io/badge/docs-latest-brightgreen.svg
-    :target: https://readthedocs.org/projects/sweep/badge/?version=latest
+    :target: http://sweep.readthedocs.io/en/latest/
     :alt: Documentation Status
 
 .. image:: https://travis-ci.org/nismod/sweep.svg?branch=master
