@@ -9,7 +9,7 @@ install:
 - source tests/travis_install.sh
 - pip install -r test-requirements.txt
 before_script:
-- git config --global user.email "sven.eggimann@ouce.ox.ac.uk"
+- git config --global user.email "t"
 - git config --global user.name "Sven Eggimann"
 script:
 - python setup.py develop
@@ -17,6 +17,6 @@ script:
 after_success:
 - if [[ "$COVERAGE" == "true" ]]; then coveralls || echo "failed"; fi
 notifications:
-  email:
-    on_success: never # default: change
-    on_failure: never # default: always
+  email: never
+    #on_success: never # default: change
+    #on_failure: never # default: always
